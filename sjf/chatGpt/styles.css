@@ -1,0 +1,40 @@
+/* General table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+/* Gantt Chart Styles */
+.p-wait {
+  background-color: #dd2938; /* Light red for waiting */
+  color: rgb(230, 10, 10);
+}
+
+.e-exec {
+  background-color: #0ed27a; /* Light green for execution */
+  color: rgb(3, 137, 8);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header .btn {
+  margin-left: auto;
+}

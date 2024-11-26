@@ -1,0 +1,29 @@
+/* Estilo para la tabla de procesos */
+#processTable, #resultTable, #ganttTable {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Estilos para las celdas del diagrama de Gantt */
+#ganttTable th, #ganttTable td {
+  text-align: center;
+  width: 50px;
+}
+
+#ganttTable td {
+  height: 30px;
+}
+
+.gantt-running {
+  background-color: green;
+  color: rgb(3, 137, 8);
+}
+
+.gantt-waiting {
+  background-color: red;
+  color: rgb(230, 10, 10);
+}
+
+.gantt-idle {
+  background-color: #f0f0f0;
+}
